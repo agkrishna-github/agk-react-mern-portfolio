@@ -1,0 +1,35 @@
+.header {
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #04052C;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+
+}
+
+.header .title {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header .title .Typewriter {
+    color: #FFC83D;
+}
+
+.header .image {
+    width: 400px;
+}
+
+.header .image img {
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}

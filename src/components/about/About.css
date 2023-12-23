@@ -1,0 +1,59 @@
+.about {
+    min-width: 100%;
+    min-height: 100vh;
+    padding: 2rem 0.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #D2F8FF;
+    
+}
+
+
+.about .headings > h5 {
+    text-align: center;
+    padding: 0.5rem;
+}
+.about .headings> h3 {
+    text-align: center;
+    padding: 0.5rem;
+}
+.about .details {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    min-height: calc(100vh - 180px);
+    background-color: #090013;
+    color: aliceblue;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about .details h4 {
+    text-align: center;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+}
+.about .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+    padding: 1rem;
+}
+.skills .elements {
+    max-width: 500px;
+    display: flex;
+    gap:1rem;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.elements p {
+    margin: 1rem 0;
+    max-width: 400px;
+}
